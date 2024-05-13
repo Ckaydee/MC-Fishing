@@ -31,6 +31,11 @@ function fishBtnClicked() {
 
   if (character == "steve") {
     let randNum = Math.random().toFixed(4);
+    numCod = 0;
+    numTropical = 0;
+    numPuffer = 0;
+    numSalmon = 0;
+    div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.7) {
       img.src = "img/Raw-Cod.png";
@@ -55,6 +60,11 @@ function fishBtnClicked() {
     }
   } else if (character == "alex") {
     let randNum = Math.random().toFixed(4);
+    numCod = 0;
+    numTropical = 0;
+    numPuffer = 0;
+    numSalmon = 0;
+    div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.1) {
       img.src = "img/Raw-Cod.png";
@@ -79,6 +89,11 @@ function fishBtnClicked() {
     }
   } else if (character == "villager") {
     let randNum = Math.random().toFixed(4);
+    numCod = 0;
+    numTropical = 0;
+    numPuffer = 0;
+    numSalmon = 0;
+    div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.25) {
       img.src = "img/Raw-Cod.png";
