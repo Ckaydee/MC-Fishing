@@ -31,11 +31,15 @@ function fishBtnClicked() {
 
   if (character == "steve") {
     let randNum = Math.random().toFixed(4);
-    numCod = 0;
-    numTropical = 0;
-    numPuffer = 0;
-    numSalmon = 0;
-    div.innerHTML = "";
+    // numCod = 0;
+    // codEl.innerHTML = numCod;
+    // numTropical = 0;
+    // tropicalEl.innerHTML = numTropical;
+    // numPuffer = 0;
+    // pufferEl.innerHTML = numPuffer;
+    // numSalmon = 0;
+    // salmonEl.innerHTML = numSalmon;
+    // div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.7) {
       img.src = "img/Raw-Cod.png";
@@ -60,6 +64,15 @@ function fishBtnClicked() {
     }
   } else if (character == "alex") {
     let randNum = Math.random().toFixed(4);
+    // numCod = 0;
+    // codEl.innerHTML = numCod;
+    // numTropical = 0;
+    // tropicalEl.innerHTML = numTropical;
+    // numPuffer = 0;
+    // pufferEl.innerHTML = numPuffer;
+    // numSalmon = 0;
+    // salmonEl.innerHTML = numSalmon;
+    // div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.1) {
       img.src = "img/Raw-Cod.png";
@@ -84,11 +97,15 @@ function fishBtnClicked() {
     }
   } else if (character == "villager") {
     let randNum = Math.random().toFixed(4);
-    numCod = 0;
-    numTropical = 0;
-    numPuffer = 0;
-    numSalmon = 0;
-    div.innerHTML = "";
+    // numCod = 0;
+    // codEl.innerHTML = numCod;
+    // numTropical = 0;
+    // tropicalEl.innerHTML = numTropical;
+    // numPuffer = 0;
+    // pufferEl.innerHTML = numPuffer;
+    // numSalmon = 0;
+    // salmonEl.innerHTML = numSalmon;
+    // div.innerHTML = "";
     console.log(randNum);
     if (randNum <= 0.25) {
       img.src = "img/Raw-Cod.png";
